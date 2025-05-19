@@ -18,13 +18,17 @@ Or:
 .\venv\Scripts\activate.bat  # CMD
 ```
 
+For Linux/Mac:
+
+Note: The current virtual environment is set up for Windows. On Linux/Mac, you'll need to create a new virtual environment first:
+
+```
+python -m venv venv
+source venv/bin/activate
+pip install docling
+```
+
 ## Available Tools
-
-### Built-in Docling Commands
-
-- `docling` - Process documents: `docling [OPTIONS] source`
-- `docling-view` - View Docling JSON files in a browser: `docling-view [OPTIONS] source`
-- `docling-tools` - Additional utilities: `docling-tools [OPTIONS] COMMAND [ARGS]...`
 
 ### PDF to Hierarchical Text Converter
 
