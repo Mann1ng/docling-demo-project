@@ -1,4 +1,5 @@
-# Docling Python Environment
+# Docling Demo
+## PDF to Structured Text
 
 This is a Python virtual environment with the [docling](https://pypi.org/project/docling/) package installed via:
 
